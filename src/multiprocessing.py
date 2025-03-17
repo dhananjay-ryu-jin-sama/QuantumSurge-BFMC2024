@@ -15,6 +15,7 @@ from src.templates.threadwithstop import ThreadWithStop
 from src.utils.messages.allMessages import SpeedMotor, SteerMotor
 from src.utils.messages.messageHandlerSender import messageHandlerSender
 
+
 class TrafficSignDetection(ThreadWithStop):
     def _init_(self, queues, serialCom, logFile, logger, debugger=False):
         super(TrafficSignDetection, self)._init_()
